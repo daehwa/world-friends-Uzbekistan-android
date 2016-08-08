@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NameCard</string>
+    <string name="facebook_address"><a href="https://www.facebook.com/profile.php?id=100003587245593">Facebook</a></string>
+    <string name="git_address"><a href="https://github.com/daehwa">GitHub</a></string>
+</resources>
