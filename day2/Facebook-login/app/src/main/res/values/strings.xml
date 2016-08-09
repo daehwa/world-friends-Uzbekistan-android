@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Facebook-login</string>
+    <string name="forgot_account"><a href="https://www.facebook.com/login/identify?ctx">forgot account?</a></string>
+</resources>
