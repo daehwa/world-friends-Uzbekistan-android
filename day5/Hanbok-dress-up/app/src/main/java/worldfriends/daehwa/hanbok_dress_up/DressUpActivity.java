@@ -35,7 +35,6 @@ public class DressUpActivity extends Activity {
 
         for (int i=0;i<5;i++){
             mImg[i].setTag(IMAGEVIEW_TAG);
-            mImg[i].setId(i);
             mImg[i].setOnLongClickListener(DressUpLongClick);
         }
 
@@ -54,8 +53,7 @@ public class DressUpActivity extends Activity {
             String[] mimeTypes = { ClipDescription.MIMETYPE_TEXT_PLAIN };
             ClipData data = new ClipData(view.getTag().toString(),
                     mimeTypes, item);
-            View.DragShadowBuilder shadowBuilder = new View.DragShadowBuilder(
-                    view);
+            View.DragShadowBuilder shadowBuilder = new View.DragShadowBuilder(view);
 
             view.startDrag(data, // data to be dragged
                     shadowBuilder, // drag shadow
