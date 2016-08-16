@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a5a97">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+        <TextView
+            android:id="@+id/newID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="15dp"
+            android:textSize="12sp"
+            android:text="Sign up"/>
+        <TextView
+            android:id="@+id/find_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:text="@string/forgot_account"
+            android:textStyle="normal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/facebook_logo"/>
+        <EditText
+            android:id="@+id/IDEditText"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="#90a9d1"
+            android:paddingLeft="10dp"
+            android:hint="ID"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/PasswordEditText"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textWebPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#90a9d1"
+            android:paddingLeft="10dp"
+            android:hint="Password"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/checkBtn"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="login"
+            android:onClick="loginBtn"
+            android:textSize="15sp"
+            android:textColor="#90a9d1"
+            android:background="#4c69a1"
+            />
+        <CheckBox
+            android:id="@+id/autoLoginCbx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:text="auto login"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>
