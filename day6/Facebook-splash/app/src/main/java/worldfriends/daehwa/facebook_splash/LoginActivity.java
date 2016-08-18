@@ -9,9 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-/**
- * Created by snote on 2016-07-22.
- */
 public class LoginActivity extends Activity{
     EditText ID,PW;
 
@@ -39,6 +36,4 @@ public class LoginActivity extends Activity{
             startActivity(intent);
         }
     }
-
-
 }
