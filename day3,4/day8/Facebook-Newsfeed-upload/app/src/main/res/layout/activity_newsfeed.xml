@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dadee1"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="17dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/profile_image"/>
+            <EditText
+                android:id="@+id/post_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="What do you think, now?"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+            <Button
+                android:id="@+id/state_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Upload"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:background="@android:color/white"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Photo"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:background="@android:color/white"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Check-in"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:background="@android:color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

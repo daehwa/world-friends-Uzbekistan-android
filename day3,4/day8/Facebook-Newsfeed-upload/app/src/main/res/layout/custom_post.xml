@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="17dp">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/profile_image"/>
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="김대화"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:paddingLeft="7dp"/>
+            <ImageView
+                android:id="@+id/list_menu"
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/list_menu"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/my_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#3d3d3d"
+            android:text="hello world! ^^"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+            <Button
+                android:id="@+id/state_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="좋아요"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="댓글"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="공유하기"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
