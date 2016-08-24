@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="worldfriends.daehwa.library_api_example.MainActivity">
+
+    <com.wefika.calendar.CollapseCalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButtonGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BootstrapButtonGroup"
+        android:orientation="vertical"
+        app:bootstrapBrand="info"
+        app:bootstrapSize="lg"
+        app:roundedCorners="true"
+        >
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/date_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="Date Picker"
+            />
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="Time Picker"
+            />
+    </com.beardedhen.androidbootstrap.BootstrapButtonGroup>
+    <com.beardedhen.androidbootstrap.BootstrapWell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        app:bootstrapSize="xl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Look, I'm in a large well!"
+            />
+    </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <com.beardedhen.androidbootstrap.BootstrapProgressBar
+            android:id="@+id/process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:animated="true"
+            app:bootstrapBrand="warning"
+            app:bootstrapProgress="70"
+            app:striped="true"
+            />
+    <com.beardedhen.androidbootstrap.BootstrapLabel
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bootstrapBrand="primary"
+        app:bootstrapHeading="h3"
+        app:roundedCorners="true"
+        android:text="Bootstrap Label"
+        />
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="md"
+        app:bootstrapBrand="info"
+        />
+    <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        app:bootstrapBrand="danger"
+        app:hasBorder="true"
+        />
+</LinearLayout>
