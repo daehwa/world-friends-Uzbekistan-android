@@ -1,3 +1,3 @@
 # world-friends-Uzbekistan-android
 world-friends-Uzbekistan-android
-I hope everyone download it and have a good time! :-)
+I hope that everyone downloads it and has a good time! :-)
