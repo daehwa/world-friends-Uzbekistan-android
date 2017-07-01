@@ -62,7 +62,7 @@ It is the most biggest goal to learn xml language and to know application design
 
 - CheckBox
 
-- Color: color code, android 내장 color, RGB, color opacity
+- Color: color code, android supported color, RGB, color opacity
 
 - RadioButtom, Button
 
