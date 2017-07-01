@@ -13,6 +13,8 @@ One lecture contain to complete one project.
 I hope everyone to be familiar with android programming as use many examples
 
 
+--------------------------------------------------------------------------------------------------------
+
 
 안드로이드 개발 입문을 위한 다양한 예제와 설명을 담고있는 튜토리얼입니다.
 
@@ -44,6 +46,5 @@ This lecture uses [android studio](https://developer.android.com/studio/index.ht
 | [day7](https://github.com/daehwa/world-friends-Uzbekistan-android/tree/master/day7)  | Gesture Password  |  GestureListner, MotionEvent  |
 | [day8](https://github.com/daehwa/world-friends-Uzbekistan-android/tree/master/day3%2C4/day8)  | Facebook Newsfeed  |  elegant Android Tab  |
 | [day9](https://github.com/daehwa/world-friends-Uzbekistan-android/tree/master/day9)  | Library & API  |  How to use android libraries  |
-[Table caption, works as a reference][section-mmd-tables-table1] 
 
 
